@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #202020;
+  color: #f3f3f3;
+  max-width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}

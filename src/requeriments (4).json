@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Registrar usuarios",
+    "estimatedTime": "3",
+    "predecessor": "",
+    "order": 1
+  },
+  {
+    "name": "Iniciar sesión",
+    "estimatedTime": "3",
+    "predecessor": "Registrar usuarios",
+    "order": 2
+  },
+  {
+    "name": "Recuperar contraseña",
+    "estimatedTime": "3",
+    "predecessor": "Registrar usuarios",
+    "order": 3
+  },
+  {
+    "name": "Confirmar registro",
+    "estimatedTime": "3",
+    "predecessor": "Registrar usuarios",
+    "order": 4
+  },
+  {
+    "name": "Buscar usuarios",
+    "estimatedTime": "3",
+    "predecessor": "Iniciar sesión",
+    "order": 5
+  },
+  {
+    "name": "Publicar contenido",
+    "estimatedTime": "3",
+    "predecessor": "Iniciar sesión",
+    "order": 6
+  },
+  {
+    "name": "Ver publicaciones sociales",
+    "estimatedTime": "5",
+    "predecessor": "Iniciar sesión",
+    "order": 7
+  },
+  {
+    "name": "Ver trabajos",
+    "estimatedTime": "3",
+    "predecessor": "Iniciar sesión",
+    "order": 8
+  },
+  {
+    "name": "Recibir notificaciones",
+    "estimatedTime": "4",
+    "predecessor": "Iniciar sesión",
+    "order": 9
+  },
+  {
+    "name": "Mandar/recibir mensajes",
+    "estimatedTime": "10",
+    "predecessor": "Iniciar sesión",
+    "order": 10
+  },
+  {
+    "name": "Publicar oferta de trabajo",
+    "estimatedTime": "2",
+    "predecessor": "Iniciar sesión",
+    "order": 11
+  },
+  {
+    "name": "Crear consulta en el foro",
+    "estimatedTime": "10",
+    "predecessor": "Iniciar sesión",
+    "order": 12
+  },
+  {
+    "name": "Editar perfil",
+    "estimatedTime": "2",
+    "predecessor": "Iniciar sesión",
+    "order": 13
+  },
+  {
+    "name": "Denunciar usuario",
+    "estimatedTime": "1",
+    "predecessor": "Iniciar sesión",
+    "order": 14
+  },
+  {
+    "name": "Bloquear usuario",
+    "estimatedTime": "3",
+    "predecessor": "Iniciar sesión",
+    "order": 15
+  },
+  {
+    "name": "Ver denuncias",
+    "estimatedTime": "2",
+    "predecessor": "Iniciar sesión",
+    "order": 16
+  },
+  {
+    "name": "Cerrar sesión",
+    "estimatedTime": "1",
+    "predecessor": "Iniciar sesión",
+    "order": 17
+  },
+  {
+    "name": "Seguir usuario",
+    "estimatedTime": "4",
+    "predecessor": "Buscar usuarios",
+    "order": 18
+  },
+  {
+    "name": "Ver perfil de usuario",
+    "estimatedTime": "2",
+    "predecessor": "Buscar usuarios",
+    "order": 19
+  },
+  {
+    "name": "Interacción social con publicaciones",
+    "estimatedTime": "3",
+    "predecessor": "Publicar contenido",
+    "order": 20
+  },
+  {
+    "name": "Ver publicación de foro",
+    "estimatedTime": "2",
+    "predecessor": "Crear consulta en el foro",
+    "order": 21
+  },
+  {
+    "name": "Hacer consultas en publicaciones de foro",
+    "estimatedTime": "4",
+    "predecessor": "Crear consulta en el foro",
+    "order": 22
+  },
+  {
+    "name": "Aplicar a oferta de trabajo",
+    "estimatedTime": "2",
+    "predecessor": "Ver trabajos",
+    "order": 23
+  },
+  {
+    "name": "Buscar trabajos",
+    "estimatedTime": "3",
+    "predecessor": "Ver trabajos",
+    "order": 24
+  },
+  {
+    "name": "Filtrar trabajos",
+    "estimatedTime": "2",
+    "predecessor": "Ver trabajos",
+    "order": 25
+  },
+  {
+    "name": "Gestionar ofertas activas",
+    "estimatedTime": "3",
+    "predecessor": "Publicar oferta de trabajo",
+    "order": 26
+  },
+  {
+    "name": "Visualizar candidatos a trabajos",
+    "estimatedTime": "2",
+    "predecessor": "Publicar oferta de trabajo",
+    "order": 27
+  },
+  {
+    "name": "Revisión de denuncia",
+    "estimatedTime": "2",
+    "predecessor": "Ver denuncias",
+    "order": 28
+  },
+  {
+    "name": "Elegir intereses",
+    "estimatedTime": "2",
+    "predecessor": "Ver perfil de usuario",
+    "order": 29
+  },
+  {
+    "name": "Buscar publicación de foro",
+    "estimatedTime": "3",
+    "predecessor": "Ver publicación de foro",
+    "order": 30
+  },
+  {
+    "name": "Filtrar publicación de foro",
+    "estimatedTime": "3",
+    "predecessor": "Ver publicación de foro",
+    "order": 31
+  },
+  {
+    "name": "Asignar puntaje a las acciones del usuario",
+    "estimatedTime": "3",
+    "predecessor": "Hacer consultas en publicaciones de foro",
+    "order": 32
+  },
+  {
+    "name": "Responder preguntas de foro",
+    "estimatedTime": "3",
+    "predecessor": "Hacer consultas en publicaciones de foro",
+    "order": 33
+  },
+  {
+    "name": "Bloquear/desbloquear usuario",
+    "estimatedTime": "2",
+    "predecessor": "Revisión de denuncia",
+    "order": 34
+  },
+  {
+    "name": "Puntuar respuestas en el foro",
+    "estimatedTime": "3",
+    "predecessor": "Responder preguntas de foro",
+    "order": 35
+  }
+]
