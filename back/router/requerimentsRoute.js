@@ -15,7 +15,7 @@ routerRequeriment.put("/:id", async (req, res) => {
     const { id } = req.params;
     const requeriment = await Requeriment.findByIdAndUpdate(
       id,
-      { order: order },
+      { order },
       { new: true }
     );
 

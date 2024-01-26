@@ -63,10 +63,11 @@ function Example() {
         const updatedRequeriments = arrayMove(requeriments, oldIndex, newIndex);
 
         updateOrder(oldIndex, newIndex + 1);
-        updateOrder(newIndex, oldIndex + 1);
+        updateOrder(newIndex, oldIndex + 1); //No se intercambian
         updatedRequeriments.forEach((requeriment, index) => {
           const newOrder = index + 1; // El nuevo orden basado en el índice
           requeriment.order = newOrder; // Actualizar el orden en el objeto local
+          
         });
         return updatedRequeriments;
       });
